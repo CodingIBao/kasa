@@ -1,0 +1,31 @@
+# -----------------------------------
+# Normalize text files to LF
+# (Unix style, évite les CRLF sur Windows)
+# -----------------------------------
+* text=auto eol=lf
+
+# -----------------------------------
+# Binary files (ne pas convertir les fins de ligne)
+# -----------------------------------
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.ico binary
+*.mp4 binary
+*.mp3 binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+
+# JSON, lockfiles, etc. → toujours LF
+*.json text eol=lf
+*.lock text eol=lf
+
+# -----------------------------------
+# Windows / Linux / Mac spécifiques
+# -----------------------------------
+*.sh text eol=lf
+*.bat text eol=crlf

@@ -10,9 +10,11 @@
 
 // Layout
 @use './layout/header' as *;
+@use './layout/main' as *;
 @use './layout/footer' as *;
 
 // Components
+@use './components/navigation' as *;
 @use './components/card' as *;
 @use './components/banner' as *;
 @use './components/collapse' as *;

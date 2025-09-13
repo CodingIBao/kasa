@@ -1,0 +1,12 @@
+// KASA/react/src/styles/layout/_header.scss
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  img {
+    width: 145px;
+  }
+}

@@ -49,7 +49,7 @@ Kasa/
 ### 1. Cloner le projet
 
 ```bash
-git clone <https://github.com/CodingIBao/Kaza>
+git clone <https://github.com/CodingIBao/Kasa>
 cd Kasa/react
 ```
 

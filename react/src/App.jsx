@@ -1,15 +1,12 @@
 // KASA/react/src/App.jsx
 
 import { Outlet, Link } from "react-router-dom";
+import Header from "./components/Header";
 
 export default function App() {
   return (
     <>
-      <header>
-        <nav>
-          <Link to="/">Accueil</Link> | <Link to="/about">À propos</Link>
-        </nav>
-      </header>
+      <Header />
 
       <main>
         <Outlet />

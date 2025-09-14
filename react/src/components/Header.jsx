@@ -5,9 +5,7 @@ import Navigation from "./Navigation"
 function Header() {
   return (
     <header>
-      <div>
-        <img src="/logos/logo.png" alt="Logo du site Kasa" />
-      </div>
+        <img src="/logos/logo.png" alt="Logo du site Kasa" className="header-logo"/>
       <Navigation/>
     </header>
   )

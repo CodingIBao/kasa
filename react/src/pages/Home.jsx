@@ -1,6 +1,6 @@
 // KASA/react/src/pages/Home.jsx
 
-import Hero from "../components/Banner"
+import Hero from "../components/Hero"
 import heroHomeBanner from "../assets/img/home.jpg"
 
 export default function Home() {

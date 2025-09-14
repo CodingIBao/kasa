@@ -1,8 +1,19 @@
 // KASA/react/src/styles/base/_global.scss
 
+body {
+  font-family: "Monsterat", sans-serif;
+}
+
 a {
   color: inherit;
   text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 ul {

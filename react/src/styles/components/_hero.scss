@@ -1,0 +1,25 @@
+// KASA/react/src/styles/components/_banner.scss
+
+.hero {
+  position: relative;
+  
+  .banner-img {
+    height: 111px;
+    border-radius: 10px;
+    filter: brightness(60%);
+  }
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+
+  .mobile-break {
+    display: block;
+  }
+}

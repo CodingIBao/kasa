@@ -1,4 +1,5 @@
 // KASA/react/src/router/index.jsx
+
 import { createBrowserRouter } from 'react-router-dom';
 import App from '../App.jsx';
 import Home from '../pages/Home.jsx';
@@ -15,7 +16,6 @@ export const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: 'about', element: <About /> },
       { path: 'logement/:id', element: <Logement /> },
-      { path: '*', element: <NotFound /> },
     ],
   },
 ]);

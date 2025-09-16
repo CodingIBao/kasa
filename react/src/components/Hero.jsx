@@ -7,10 +7,10 @@ function Hero({ image, line1, line2 }) {
     <section className="hero">
       <img className="hero-img" src={image} alt="" />
       {hasText && (
-        <p className="hero-text">
+        <h1 className="hero-text">
           <span className="hero-line">{line1}</span>
           <span className="hero-line">{line2}</span>
-        </p>
+        </h1>
       )}
     </section>
   )

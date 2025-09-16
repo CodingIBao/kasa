@@ -2,13 +2,18 @@
 
 import Hero from "../components/Hero"
 import heroHomeBanner from "../assets/img/home.jpg"
+import Gallery from "../components/Gallery"
+import logements from "../data/logements.json"
 
 export default function Home() {
   return (
-    <Hero
-      image={heroHomeBanner}
-      line1="Chez vous, "
-      line2="partout et ailleurs"
-    />
+    <>
+      <Hero
+        image={heroHomeBanner}
+        line1="Chez vous, "
+        line2="partout et ailleurs"
+      />
+      <Gallery logements={logements}/>
+    </>
   )
 }

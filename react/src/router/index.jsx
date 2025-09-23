@@ -4,18 +4,23 @@ import { createBrowserRouter } from 'react-router-dom';
 import App from '../App.jsx';
 import Home from '../pages/Home.jsx';
 import About from '../pages/About.jsx';
-import Logement from '../pages/Logement.jsx';
+import Accommodation from '../pages/Accommodation.jsx';
 import NotFound from '../pages/NotFound.jsx';
 
 export const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <App />,
     errorElement: <NotFound />,
     children: [
       { index: true, element: <Home /> },
-      { path: 'about', element: <About /> },
-      { path: 'logement/:id', element: <Logement /> },
+      { path: "about", element: <About /> },
+      { path: "Accommodation/:id", element: <Accommodation /> },
+      // {  path: "/simulate-error",
+      //   loader: async () => {
+      //     throw new Response("Internal Server Error", { status: 500 });
+      //   },
+      // }
     ],
   },
 ]);

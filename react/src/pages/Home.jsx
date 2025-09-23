@@ -3,7 +3,7 @@
 import Hero from "../components/Hero"
 import heroHomeBanner from "../assets/img/home.jpg"
 import Gallery from "../components/Gallery"
-import logements from "../data/logements.json"
+import accommodations from "../data/logements.json"
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         line1="Chez vous, "
         line2="partout et ailleurs"
       />
-      <Gallery logements={logements}/>
+      <Gallery accommodations={accommodations}/>
     </>
   )
 }

@@ -1,0 +1,7 @@
+// KASA/react/src/styles/components/_gallery.scss
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}

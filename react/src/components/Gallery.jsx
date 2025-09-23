@@ -2,10 +2,10 @@
 
 import Card from "./Card"
 
-function Gallery({logements}) {
+function Gallery({accommodations}) {
   return (
     <section className="gallery">
-      {logements.map(({id, title, cover}) => (
+      {accommodations.map(({id, title, cover}) => (
         <Card
           key={id}
           title={title}

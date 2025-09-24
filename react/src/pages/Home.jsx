@@ -1,9 +1,9 @@
 // KASA/react/src/pages/Home.jsx
 
-import Hero from "../components/Hero"
-import heroHomeBanner from "../assets/img/home.jpg"
-import Gallery from "../components/Gallery"
-import accommodations from "../data/logements.json"
+import Hero from "../components/Hero";
+import heroHomeBanner from "../assets/img/home.jpg";
+import Gallery from "../components/Gallery";
+import accommodations from "../data/logements.json";
 
 export default function Home() {
   return (
@@ -15,5 +15,5 @@ export default function Home() {
       />
       <Gallery accommodations={accommodations}/>
     </>
-  )
+  );
 }

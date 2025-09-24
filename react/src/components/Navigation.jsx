@@ -1,6 +1,6 @@
-// KASA/react/src/components/Navigation
+// KASA/react/src/components/Navigation.jsx
 
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
 
 function setActive({isActive}) {
   return isActive ? "nav-link active" : "nav-link"

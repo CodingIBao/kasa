@@ -1,4 +1,4 @@
-// KASA/react/src/components/Footer
+// KASA/react/src/components/Footer.jsx
 
 function Footer() {
   return (

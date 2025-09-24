@@ -1,6 +1,6 @@
-// KASA/react/src/components/Navigation
+// KASA/react/src/components/Header.jsx
 
-import Navigation from "./Navigation"
+import Navigation from "./Navigation";
 
 function Header() {
   return (

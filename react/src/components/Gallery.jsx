@@ -1,6 +1,6 @@
 // KASA/react/src/components/Gallery.jsx
 
-import Card from "./Card"
+import Card from "./Card";
 
 function Gallery({accommodations}) {
   return (
@@ -13,7 +13,7 @@ function Gallery({accommodations}) {
         />
       ))}
     </section>
-  )
+  );
 }
 
 export default Gallery

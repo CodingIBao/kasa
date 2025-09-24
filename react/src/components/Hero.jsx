@@ -1,4 +1,4 @@
-// KASA/react/src/components/Hero
+// KASA/react/src/components/Hero.jsx
 
 function Hero({ image, line1, line2 }) {
   const hasText = Boolean(line1 && line2)

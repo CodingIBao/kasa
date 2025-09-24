@@ -6,7 +6,7 @@ function Card({cover, title}) {
       <img src={cover} alt={title} className="card-img" />
       <h2 className="card-title">{title}</h2>
     </article>
-  )
+  );
 }
 
 export default Card

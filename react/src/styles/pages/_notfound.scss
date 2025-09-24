@@ -1,0 +1,25 @@
+// KASA/react/src/styles/pages/_accommodation.scss
+
+@import "../utils/variables";
+
+.main-not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  h1 {
+    font-size: 99px;
+    color: $primary-color;
+  }
+  p {
+    .error-message-line {
+      display: block;
+      color: $primary-color;
+      font-size: 18px;
+
+    }
+  }
+  a {
+    text-decoration: underline;
+  }
+}

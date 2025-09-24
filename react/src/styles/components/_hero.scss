@@ -1,5 +1,7 @@
 // KASA/react/src/styles/components/_banner.scss
 
+@import "../utils/variables";
+
 .hero {
   position: relative;
   height: 111px;
@@ -22,7 +24,7 @@
   left: 10px;
   font-size: 24px;
   font-weight: 700;
-  color: white;
+  color: $white-color;
 
   .hero-line {
     display: block;

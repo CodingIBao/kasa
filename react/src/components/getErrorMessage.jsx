@@ -21,7 +21,7 @@ function getErrorMessage(status) {
         {lines.map((line, index) => (
           <span
             key={`${status}-${index}`}
-            className="error-message-line"
+            className="not-found__message-line"
           >
             {line}
           </span>

@@ -13,10 +13,10 @@ export default function NotFound() {
   return (
     <>
     <Header />
-      <main className="main-not-found">
-        <h1>{title}</h1>
-        <p>{message}</p>
-        <Link to="/">Retourner sur la page d’accueil</Link>
+      <main className="not-found">
+        <h1 className="not-found__title">{title}</h1>
+        <p className="not-found__message">{message}</p>
+        <Link className="not-found__link" to="/">Retourner sur la page d’accueil</Link>
       </main>
       <Footer />
     </>

@@ -2,16 +2,18 @@
 
 @use "../utils/variables"as *;
 
-.main-not-found {
+.not-found {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
-  h1 {
+  
+  &__title {
     font-size: 99px;
     color: $primary-color;
   }
-  p {
+  
+  &__message {
     .error-message-line {
       display: block;
       color: $primary-color;
@@ -19,7 +21,8 @@
 
     }
   }
-  a {
+
+  &__link {
     text-decoration: underline;
   }
 }

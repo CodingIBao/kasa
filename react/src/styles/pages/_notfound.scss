@@ -3,26 +3,29 @@
 @use "../utils/variables"as *;
 
 .not-found {
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   text-align: center;
   
   &__title {
-    font-size: 99px;
+    font-size: 96px;
     color: $primary-color;
   }
   
   &__message {
-    .error-message-line {
-      display: block;
-      color: $primary-color;
-      font-size: 18px;
+    color: $primary-color;
+    font-size: 18px;
+  }
 
-    }
+  &__message-line {
+    display: block;
   }
 
   &__link {
     text-decoration: underline;
+    font-size: 14px;
   }
 }

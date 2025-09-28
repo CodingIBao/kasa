@@ -1,14 +1,14 @@
-// KASA/react/src/components/getErrorMessage.jsx
+// KASA/react/src/components/GetErrorMessage.jsx
 
-function getErrorMessage(status) {
+function GetErrorMessage(status) {
   const message = {
     404: [
-      "Oups ! La page que ",
+      "Oups! La page que ",
       "vous demandez n'existe pas."
     ],
     default: [
-      "Oups ! Une erreur est ",
-      "survenue. Veuillez réessayez plus tard."
+      "Oups! Une erreur est survenue. ",
+      "Veuillez réessayez plus tard."
     ]
   };
 
@@ -31,4 +31,4 @@ function getErrorMessage(status) {
   };
 }
 
-export default getErrorMessage
+export default GetErrorMessage

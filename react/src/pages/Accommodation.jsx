@@ -1,8 +1,9 @@
 // KASA/react/src/pages/Accommodation.jsx
 
-import { useParams } from "react-router-dom";
-
-export default function Accomodation() {
-  const { id } = useParams();
-  return <h1>Logement #{id}</h1>;
+export default function Accommodation({ logement }) {
+  return (
+    <h1>
+      Logement #{logement.id}
+    </h1>
+  );
 }

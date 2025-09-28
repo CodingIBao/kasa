@@ -3,39 +3,12 @@
 import { useRouteError, Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import getErrorMessage from "../components/getErrorMessage";
 
 export default function NotFound() {
   const error = useRouteError();
   const status = error?.status;
-  
-  let title;
-  let message;
-
-  if (status === 404) {
-    title = "404"
-    message = (
-      <>
-        <span className="error-message-line">
-          "Oups ! La page que 
-        </span>
-        <span className="error-message-line">
-          vous demandez n'existe pas."
-        </span>
-      </>
-    );
-  } else {
-    title = "Erreur"
-    message = (
-      <>
-        <span className="error-message-line">
-          "Oups ! Une erreur est 
-        </span>
-        <span className="error-message-line">
-          survenue. Veuillez réessayez plus tard."
-        </span>
-      </>
-    )
-  }
+  const { title, message } = getErrorMessage(status);
   
   return (
     <>

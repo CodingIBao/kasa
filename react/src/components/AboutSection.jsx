@@ -7,7 +7,7 @@ function AboutSection({ data }) {
     <section className="about-section">
       {data.map((item, index) => (
         <Dropdown 
-          key={index}
+          key={`${item.tilte}-${index}`}
           title={item.title}
           description={item.description}
         />

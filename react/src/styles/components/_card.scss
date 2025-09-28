@@ -1,6 +1,6 @@
 // KASA/react/src/styles/components/_card.scss
 
-@import "../utils/variables";
+@use "../utils/variables" as *;
 
 .card {
   position: relative;
@@ -8,7 +8,7 @@
   overflow: hidden;
   cursor: pointer;
   
-  .card-img {
+  &__img {
     object-fit: cover;
     width: 100%;
     height: 255px;
@@ -22,7 +22,7 @@
     pointer-events: none;
   }
 
-  .card-title {
+  &__title {
     position: absolute;
     color: $white-color;
     font-weight: 700;

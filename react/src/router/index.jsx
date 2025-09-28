@@ -14,8 +14,8 @@ export const router = createBrowserRouter([
     errorElement: <NotFound />,
     children: [
       { index: true, element: <Home /> },
-      { path: "about", element: <About /> },
-      { path: "Accommodation/:id", element: <Accommodation /> },
+      { path: "a-propos", element: <About /> },
+      { path: "logement/:id", element: <Accommodation /> },
       // {  path: "/simulate-error",
       //   loader: async () => {
       //     throw new Response("Internal Server Error", { status: 500 });

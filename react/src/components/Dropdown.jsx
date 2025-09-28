@@ -8,14 +8,16 @@ function Dropdown({title, description}) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <>
-      <button className="dropdown" onClick={() => setIsOpen(!isOpen)}>
-        <span>{title}</span>
+    <div className="dropdown">
+      <button className="dropdown__container" onClick={() => setIsOpen(!isOpen)}>
+        <h2 className="dropdown__title">{title}</h2>
         <FontAwesomeIcon icon={isOpen ? faAngleUp : faAngleDown} />
       </button>
 
-      {isOpen && <p className="dropdown-content">{description}</p>}
-    </>
+      {isOpen &&
+        <p className="dropdown__content">{description}</p>
+      }
+    </div>
   );
 }
 

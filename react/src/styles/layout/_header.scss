@@ -1,12 +1,12 @@
 // KASA/react/src/styles/layout/_header.scss
 
-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
 
-  .header-logo {
+  &__logo {
     width: 145px;
   }
 }

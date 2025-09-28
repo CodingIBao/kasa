@@ -3,8 +3,11 @@
 function Card({cover, title}) {
   return (
     <article className="card">
-      <img src={cover} alt={title} className="card-img" />
-      <h2 className="card-title">{title}</h2>
+      <img
+        src={cover}
+        alt={title}
+        className="card__img" />
+      <h2 className="card__title">{title}</h2>
     </article>
   );
 }

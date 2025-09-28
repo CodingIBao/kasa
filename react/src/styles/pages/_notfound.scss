@@ -1,6 +1,6 @@
 // KASA/react/src/styles/pages/_accommodation.scss
 
-@import "../utils/variables";
+@use "../utils/variables"as *;
 
 .main-not-found {
   display: flex;

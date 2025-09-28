@@ -1,8 +1,6 @@
 // KASA/react/src/styles/main.scss
 
 @use './utils/variables' as *;
-@use './utils/mixins' as *;
-@use './utils/functions' as *;
 
 // Base
 @use './base/reset' as *;
@@ -19,10 +17,10 @@
 @use './components/hero' as *;
 @use './components/gallery' as *;
 @use './components/card' as *;
-@use './components/collapse' as *;
-@use './components/slideshow' as *;
+@use './components/dropdown' as *;
 
 // Pages
 @use './pages/home' as *;
 @use './pages/about' as *;
 @use './pages/accommodation' as *;
+@use './pages/notfound' as *;

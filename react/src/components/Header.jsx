@@ -4,8 +4,11 @@ import Navigation from "./Navigation";
 
 function Header() {
   return (
-    <header>
-        <img src="/logos/logo.png" alt="Logo du site Kasa" className="header-logo"/>
+    <header className="header">
+        <img
+          src="/logos/logo.png"
+          alt="Logo du site Kasa"
+          className="header__logo"/>
       <Navigation/>
     </header>
   )

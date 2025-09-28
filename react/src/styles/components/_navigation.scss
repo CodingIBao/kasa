@@ -1,12 +1,14 @@
 // KASA/react/src/styles/components/_navigation.scss
 
-nav ul {
-  display: flex;
-  gap: 26px;
-  .nav-link {
+.navigation {
+  &__list {
+    display: flex;
+    gap: 26px;
+  }
+  &__link {
     text-transform: uppercase;
     font-size: 12px;
-    &.active {
+    &--active {
       text-decoration: underline;
       text-underline-offset: 2px;
     }

@@ -9,7 +9,7 @@ export default function App() {
     <>
       <Header />
 
-      <main>
+      <main className="main">
         <Outlet />
       </main>
 

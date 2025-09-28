@@ -2,12 +2,12 @@
 
 function Footer() {
   return (
-    <footer>
-      <div className="footer-container">
-        <img src="/logos/logo_white.png" alt="Logo du site Kasa" className="footer-logo"/>
-        <p className="footer-text">
-          <span className="footer-line">© 2020 Kasa. All </span>
-          <span className="footer-line">rights reserved</span>
+    <footer className="footer">
+      <div className="footer__container">
+        <img src="/logos/logo_white.png" alt="Logo du site Kasa" className="footer__logo"/>
+        <p className="footer__text">
+          <span className="footer__line">© 2020 Kasa. All </span>
+          <span className="footer__line">rights reserved</span>
         </p>
       </div>
     </footer>

@@ -24,7 +24,7 @@ export default function NotFound() {
           ) : (
             <>
             <span>
-              Oups! Une erreur est survenue
+              Oups! Une erreur est survenue.
             </span>
             <span>
               Veuillez réessayer plus tard.

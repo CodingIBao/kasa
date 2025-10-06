@@ -21,11 +21,6 @@ export const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "a-propos", element: <About /> },
       { path: "logement/:id", element: <AccommodationWrapper /> },
-      // {  path: "/simulate-error",
-      //   loader: async () => {
-      //     throw new Response("Internal Server Error", { status: 500 });
-      //   },
-      // }
     ],
   },
 ]);
